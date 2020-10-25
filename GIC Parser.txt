@@ -1,0 +1,16 @@
+<objetivo>        -> <programa> FDT
+<programa>        -> <listaSentencias>
+<listaSentencias> -> <sentencia> {<sentencia>}
+<sentencia>       -> IMPRIMIR <expresión> |
+                     IDENTIFICADOR ASIGNACION <expresión>
+                     <tipo> ASIGNACIÓN IDENTIFICADOR
+<expresión>       -> <expMatemática>
+                     CADENA
+<tipo>            -> INT
+                     DOUBLE
+<expMatemática>   -> <término> {<expMatemática> <opAdición>}
+<término>         -> <factor> {<término> <opProducto>}
+<factor>          -> CONSTANTE
+		             PARENIZQ <expMatemática> PARENDERECHO
+<opAdición>       -> uno de SUMA RESTA
+<opProducto>      -> uno de MULTIPLICACIÓN DIVISIÓN

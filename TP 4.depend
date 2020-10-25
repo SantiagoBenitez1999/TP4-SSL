@@ -1,5 +1,6 @@
 # depslib dependency file v1.0
-1603652093 source:c:\users\pc\desktop\facultad\2\sintaxis y semántica de los lenguajes\trabajos prácticos\tp 4\tp 4\main.c
+1603662681 source:c:\users\pc\desktop\facultad\2\sintaxis y semántica de los lenguajes\trabajos prácticos\tp 4\tp 4\main.c
 	<stdio.h>
 	<stdlib.h>
+	<string.h>
 
