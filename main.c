@@ -3,6 +3,15 @@
 
 int main()
 {
-    printf("Hello world!\n");
-    return 0;
+    char caracterLeido;
+    FILE *ptr = fopen("Programa fuente.txt", "r");
+
+    if (!ptr){
+        printf("ERROR: No se pudo abrir el archivo");
+        exit(1);
+    }
+    while(fscanf(ptr,"%c", &caracterLeido) != EOF){
+        printf("%c", caracterLeido);
+    }
+    fclose(ptr);
 }
