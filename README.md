@@ -14,8 +14,8 @@ El Parser estará basado el Análisis Sintáctico Descendente y estará formado 
 Sintáctico (PAS), que se deben desarrollar a partir de la gramática del lenguaje.
 
 Entregar en una carpeta identificada con el nombre del grupo:
-	Nombre e integrantes del grupo
-	BNF (pdf o Word)
-	código .c  
-	archivo de texto (programa fuente)  para prueba.
+	Nombre e integrantes del grupo  
+	BNF (pdf o Word)  
+	código .c    
+	archivo de texto (programa fuente) para prueba.  
 
